@@ -4,18 +4,6 @@
     font-family: Roboto;
 }
 
-
-.grid > div {
-    
-    background-color: #ecf0f1;
-    padding: 10px;
-}
-.grid > div:hover {
-    background-color: darkgray;
-
-}
-
-
 .grid {
     display: grid;
     grid-template-columns: repeat(3,1fr);

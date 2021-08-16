@@ -8,7 +8,7 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: minmax(100px,auto);
-    gap: 5px;
+    gap: 2px;
     
 }
 
@@ -17,7 +17,7 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
-    justify-items: center;
+    /* justify-items: center; */
     gap: 2px;
 }
 
@@ -41,7 +41,7 @@
     font-size: 30px;
     background-color: rgba(0,102,51,255);
     padding: 5px;
-    width: 150px;
+    /* width: 150px; */
     min-width: 30px;
 }
 
@@ -53,9 +53,9 @@
     padding: 5px;
 }
 
-.basic-stage {
+/* .basic-stage {
     grid-column: 1 / 2;
-}
+} */
 
 .disciplinary-stage {
     grid-column: 2 / 3;

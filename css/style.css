@@ -1,12 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@100&display=swap');
 
-
-#main-title {
+* {
     font-family: Roboto;
+}
+
+
+.grid > div {
+    
+    background-color: #ecf0f1;
+    padding: 10px;
+}
+.grid > div:hover {
+    background-color: darkgray;
 
 }
 
-div {
-    background-color: #ecf0f1;
-    padding: 10px;
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: minmax(100px,auto);
+    gap: 5px;
+    
+}
+
+.basic-grid {
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-items: center;
+    gap: 2px;
+}
+
+.disciplinary-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    gap: 2px;
+}
+
+.terminal-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2px;
+}
+
+.semester {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(0,102,51,255);
+    padding: 5px;
+    width: 150px;
+    min-width: 30px;
 }

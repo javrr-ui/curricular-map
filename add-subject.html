@@ -3,12 +3,33 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>Add subject</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
 </head>
 <body>
+    <form>
+        <label for="subject">Nombre de materia</label><br>
+        <input type="text" id="subject" name="subject"><br>
+        <label for="classHours">Horas de clase</label><br>
+        <input type="number" id="classHours" name="classHours"><br>
+        <label for="workshopHours">Horas de taller</label><br>
+        <input type="number" id="workshopHours" name="workshopHours"><br>
+        <label for="labHours">Horas de laboratorio</label><br>
+        <input type="number" id="labHours" name="labHours"><br>
+        <label for="extraClassHours">Horas extra de clase</label><br>
+        <input type="number" id="extraClassHours" name="extraClassHours"><br>
+        <label for="credits">Creditos</label><br>
+        <input type="number" id="credits" name="credits"><br>
+        <label for="subjectType">Tipo de materia</label><br>
+        <select id="subjectType" name="subjectType">
+            <option value="Materia obligatoria">Materia obligatoria</option>
+            <option value="Materia optativa">Materia optativa</option>
+        </select><br>
+        <input type="submit" value="Aceptar">
+
+    </form>
     
 </body>
 </html>

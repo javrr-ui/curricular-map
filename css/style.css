@@ -17,7 +17,7 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
-    /* justify-items: center; */
+    justify-items: center;
     gap: 2px;
 }
 
@@ -53,14 +53,22 @@
     padding: 5px;
 }
 
-/* .basic-stage {
-    grid-column: 1 / 2;
-} */
-
-.disciplinary-stage {
-    grid-column: 2 / 3;
+.basic-stage {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 90%;
+    
+  
 }
 
-/* .terminal-stage {
-    
-} */
+.disciplinary-stage {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    width: 98%;
+}
+
+.terminal-stage {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 98%;
+}

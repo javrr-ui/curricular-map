@@ -1,0 +1,72 @@
+.subject {
+    display: grid;
+    
+    grid-template-columns: repeat(3,1fr);
+    width: 90%;
+    height: auto;
+    border-style: solid;
+    border-width: 1px;
+    transition: .2s;
+}
+
+.subject:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.top-left-square {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+}
+
+.workshopHours {
+    justify-self: center;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+}
+
+.top-right-square {
+    
+    justify-self: end;
+    border-style: solid;
+    border-width: 0 0 1px 1px;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+}
+
+.subject-name {
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.bottom-left-square {
+    border-style: solid;
+    border-width: 1px 1px 0px 0;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+}
+
+.subject-number {
+    text-align: center;
+}
+
+.bottom-right-square {
+    justify-self: end;
+    border-style: solid;
+    border-width: 1px 0px 0px 1px;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+}

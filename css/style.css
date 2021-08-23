@@ -39,7 +39,7 @@
 .disciplinary-stage {
     grid-column-start: 3;
     grid-column-end: 7;
-    width: 98%;
+    width: 100%;
 }
 
 .terminal-stage {

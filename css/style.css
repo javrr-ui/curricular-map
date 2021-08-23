@@ -33,7 +33,7 @@
 .basic-stage {
     grid-column-start: 1;
     grid-column-end: 3;
-    width: 98%;
+    width: 100%;
 }
 
 .disciplinary-stage {

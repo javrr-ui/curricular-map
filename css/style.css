@@ -45,5 +45,5 @@
 .terminal-stage {
     grid-column-start: 7;
     grid-column-end: 9;
-    width: 98%;
+    width: 100%;
 }

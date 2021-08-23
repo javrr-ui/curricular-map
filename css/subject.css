@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     height: auto;
-    min-height: 65px;
+    min-height: 80px;
     border-style: solid;
     border-width: 1px;
     transition: .2s;
@@ -71,4 +71,39 @@
     width: 20px;
     height: 20px;
     background-color: white;
+}
+
+.first-semester {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.second-semester {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.third-semester {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.forth-semester { 
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.fifth-semester {
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+.sixth-semester {
+    grid-column-start: 6;
+    grid-column-end: 7;
+}
+.seventh-semester {
+    grid-column-start: 7;
+    grid-column-end: 8;
+}
+.eighth-semester {
+    grid-column-start: 8;
+    grid-column-end: 9;
 }

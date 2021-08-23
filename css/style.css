@@ -9,7 +9,7 @@
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: minmax(40px,auto);
     gap: 4px;
-    
+    align-items: center;
 }
 
 .basic-grid {

@@ -12,28 +12,6 @@
     align-items: center;
 }
 
-.basic-grid {
-
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    align-items: center;
-    gap: 2px;
-}
-
-.disciplinary-grid {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    align-items: center;
-    gap: 2px;
-}
-
-.terminal-grid {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    align-items: center;
-    gap: 2px;
-}
-
 .semester {
     color: white;
     text-align: center;

@@ -42,3 +42,52 @@
     grid-column-end: 9;
     width: 100%;
 }
+
+.subject-modal-background {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    top:0;
+    left:0;
+    position: fixed;
+    animation-name: modalAnimation;
+    animation-duration: 0.3s;
+}
+
+.subject-modal-content {
+    background-color: white;
+    min-width: 500px;
+    width: 550px;
+    height: auto;
+    top: 100px;
+    position: relative;
+    margin: auto;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.hideModal {
+    animation-name: modalAnimationClose;
+    animation-duration: 0.3s;
+}
+
+@keyframes modalAnimation {
+
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes modalAnimationClose {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

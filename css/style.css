@@ -9,6 +9,8 @@
     grid-template-rows: minmax(40px, auto);
     gap: 4px;
     align-items: center;
+    width: auto;
+    margin: 20px;
 }
 
 .semester {

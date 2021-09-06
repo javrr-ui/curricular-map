@@ -11,12 +11,12 @@ const subjectId = document.querySelector("#subjectId");
 const credits = document.querySelector("#credits");
 
 subjectModal.addEventListener("click", e => {
-
-    subjectModal.classList.add("hideModal");
-    setTimeout(() => {
-        subjectModal.style.display = "none";
-    }, 200);
-
+    if (e.target.classList.value.includes("subject-modal-background")) {
+        subjectModal.classList.add("hideModal");
+        setTimeout(() => {
+            subjectModal.style.display = "none";
+        }, 200);
+    }
 })
 
 subject.forEach(item => {
